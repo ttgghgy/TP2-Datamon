@@ -1,10 +1,14 @@
-// Datamon.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
+#include "Datamon.h"
 #include <iostream>
 
-int main()
+using namespace std;
+
+Datamon::Datamon(string name, int hp, int atk, int def)
 {
-    std::cout << "Hello World!\n";
+	cout << "ctor called with name, hp,atk and def params" << endl;
 }
 
+Datamon::~Datamon()
+{
+	cout << "dtor called. Datamon " << m_name << " has been released from his duty" << endl;
+}
