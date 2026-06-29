@@ -1,7 +1,8 @@
 // Datamon.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 #include "main.h"
-#include "DatamonBios.h"
+#include "Datamon.h"
+// #include "DatamonBios.h"
 #include <iostream>
 #include <vector>
 
@@ -80,7 +81,7 @@ void CreateDatamon()
     datamonPoints -= datamonDEF;
     
     cout << "This makes " << datamonPoints << " points into his health." << endl; 
-    datamonHP = 5*datamonPoints; //TODOMatt : Securiser que la stats de point ne soit pas négative si le joueur essaye de se distribué plus de 100 pts en ATK et DEF
+    datamonHP = 5*datamonPoints; //TODOMatt : Securiser que la stats de point ne soit pas nï¿½gative si le joueur essaye de se distribuï¿½ plus de 100 pts en ATK et DEF
 
     //Datamon summary
     cout << datamonName << ", a " << datamonType << " type Datamon, with "
