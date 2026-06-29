@@ -129,11 +129,19 @@
   <ItemGroup>
     <ClCompile Include="Ability.cpp" />
     <ClCompile Include="Datamon.cpp" />
+    <ClCompile Include="DatamonBios.cpp" />
+    <ClCompile Include="DatamonOverclock.cpp" />
+    <ClCompile Include="DatamonPowershell.cpp" />
+    <ClCompile Include="DatamonVirus.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ability.h" />
     <ClInclude Include="Datamon.h" />
+    <ClInclude Include="DatamonBios.h" />
+    <ClInclude Include="DatamonOverclock.h" />
+    <ClInclude Include="DatamonPowershell.h" />
+    <ClInclude Include="DatamonVirus.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -2,13 +2,16 @@
 //
 #include "main.h"
 #include "Datamon.h"
-// #include "DatamonBios.h"
+#include "DatamonBios.h"
 #include <iostream>
 #include <vector>
+#include <string>
 
 using namespace std;
 
 vector<Datamon*> g_datadex;
+
+DatamonBios* biosMon = new DatamonBios("Pikachu", 300, 30, 10);
 
 int main()
 {
@@ -24,7 +27,7 @@ int main()
 
         string userEntry = GetUserStringEntry();
 
-        switch (userEntry[0]) {
+        switch (toupper(userEntry[0])) {
             case 'C': {                
                 CreateDatamon();
                 break;

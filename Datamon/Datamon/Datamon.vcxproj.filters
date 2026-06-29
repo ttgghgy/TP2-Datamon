@@ -24,12 +24,36 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DatamonOverclock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatamonPowershell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatamonVirus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatamonBios.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ability.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Datamon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatamonOverclock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatamonPowershell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatamonVirus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatamonBios.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
