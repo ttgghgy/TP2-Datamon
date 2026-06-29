@@ -9,7 +9,8 @@ private:
 	int m_atk;
 	int m_def;
 public:
-	Datamon(std::string name, int hp, int atk, int def);
+	//Datamon(std::string name, int hp, int atk, int def);
+	virtual void CreateDatamon();
 	~Datamon();
 };
 
