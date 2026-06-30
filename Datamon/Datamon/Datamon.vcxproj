@@ -142,6 +142,7 @@
     <ClInclude Include="DatamonOverclock.h" />
     <ClInclude Include="DatamonPowershell.h" />
     <ClInclude Include="DatamonVirus.h" />
+    <ClInclude Include="main.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

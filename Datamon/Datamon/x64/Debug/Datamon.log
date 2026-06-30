@@ -1,2 +1,6 @@
-﻿  main.cpp
+﻿  Ability.cpp
+  main.cpp
+C:\Users\Borzoi\Documents\TP2\Datamon\Datamon\main.cpp(20,51): warning C4305: 'argument': truncation from 'int' to 'const unsigned char'
+C:\Users\Borzoi\Documents\TP2\Datamon\Datamon\main.cpp(20,51): warning C4309: 'argument': truncation of constant value
+  Generating Code...
   Datamon.vcxproj -> C:\Users\Borzoi\Documents\TP2\Datamon\x64\Debug\Datamon.exe

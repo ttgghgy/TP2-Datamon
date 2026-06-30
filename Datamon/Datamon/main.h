@@ -3,6 +3,7 @@
 
 
 void CreateDatamon();
+void ShowDatadex();
 
 //Tools
 std::string GetUserStringEntry();

@@ -1,5 +1,6 @@
 #include "Datamon.h"
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -40,4 +41,45 @@ Datamon::Datamon(std::string name) :
 Datamon::~Datamon()
 {
 	cout << "Datamon dtor called. Datamon " << m_name << " has been released from his duty" << endl;
+}
+
+ETypes Datamon::GetType()
+{
+	return m_type;
+}
+
+std::string Datamon::GetTypeString() {
+	switch (m_type) {
+
+	case ETypes::bios:
+		return "BIOS";
+	case ETypes::overclock:
+		return "Overclock";
+	case ETypes::powershell:
+		return "Powershell";
+	case ETypes::virus:
+		return "Virus";
+	default:
+		return "N/A";
+	}
+}
+
+std::string Datamon::GetName()
+{
+	return m_name;
+}
+
+unsigned char Datamon::GetHPStat() 
+{
+	return m_hpStat;
+}
+
+unsigned char Datamon::GetATK()
+{
+	return m_atk;
+}
+
+unsigned char Datamon::GetDEF()
+{
+	return m_def;
 }

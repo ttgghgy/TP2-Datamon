@@ -9,10 +9,15 @@ class Ability {
 	const unsigned char m_critChance;
 
 public:
-	const static const Ability* s_virusAbilities[4];
-	const static const Ability* s_biosAbilities[4];
-	const static const Ability* s_powershellAbilities[4];
-	const static const Ability* s_overclockAbilities[4];
+	static Ability* s_virusAbilities[4];
+	static Ability* s_biosAbilities[4];
+	static Ability* s_powershellAbilities[4];
+	static Ability* s_overclockAbilities[4];
+
+	std::string GetName();
+	unsigned short int GetPower();
+	unsigned char GetAccuracy();
+	unsigned char GetCritChance();
 
 	Ability(std::string name, const unsigned short int power, const unsigned char accuracy, const unsigned char crit);
 	~Ability();
